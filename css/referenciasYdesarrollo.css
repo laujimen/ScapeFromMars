@@ -1,0 +1,38 @@
+/*REFERENCIAS*/
+
+#texto h1 {
+    margin-top: 0px;
+    padding: 5%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 5ex;
+    font-family:"full_Pack_2025", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#texto{
+
+    position: absolute;
+    padding: 5%;
+    width: 50%;
+    background-color:gray;
+
+    border: 2px solid purple;
+    border-radius: 10px;
+    align:center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+
+    margin-top:10%;
+    margin-bottom:15%;
+    margin-left:20%;
+    margin-right: 15%; 
+    text-align:justify;
+    margin-bottom:15%;
+    z-index: -1;
+}
+
+#referencias{
+  text-align:center;
+  z-index: -1;
+
+}

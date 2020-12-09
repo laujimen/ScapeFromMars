@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<title>Escape From Mars</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" type="text/css" href="css/mainEstilos.css">
+<link rel="icon"  href="img/extraterrestre.ico">
+
+</head>
+<body>
+
+<nav id="menu">
+<ul>
+  <li><a href="inicio.html">Inicio</a></li>
+  <li><a href="descripcionEinstrucciones.html">Descripcion e instrucciones</a></li>
+  <li><a>Acerca de</a>
+  <ul>
+      <li><a href="autores.html">Autores</a></li>
+      <li><a href="referencias.html">Referencias</a></li>
+    <li><a href="desarrollo.html">Desarrollo</a></li>
+  </ul>
+  </li>
+
+</ul>
+</nav>
+
+  
+
+
+<video id="myVideo" controls autoplay class="center" width="740" height="480" >
+
+  <source src="media/EFM.mp4" type="video/mp4" >
+</video>
+
+<div id  = "videoEnd" style = "display: none"></div>
+
+<script type="text/javascript">
+  document.getElementById ('myVideo').addEventListener('ended', myHandler, false); 
+    function myHandler (e){
+      if(!e) { e = window.event;}
+   
+
+      document.getElementById("boton").style.visibility="visible";
+      document.getElementById("myVideo").style.visibility="hidden";
+      document.getElementById ('myVideo').style.display = "none";
+      document.getElementById('videoEnd').style.display = "block";
+
+      document.getElementById("boton").style.visibility="visible";
+      document.getElementById("myVideo").style.visibility="hidden";
+
+      document.getElementById ('myVideo').style.display = "none";
+      document.getElementById('videoEnd').style.display = "block";
+
+    };
+
+</script>
+  
+    <a href="juego.html" target="_self"> <input type="button" class="boton" id="boton"/> </a> 
+    <a href="juego.html"> <input type="button" id="boton"/> </a>
+</body>
+</html>

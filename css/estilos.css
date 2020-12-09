@@ -1,0 +1,35 @@
+ #canvas  {
+
+    background-image:url('../img/espacio.gif') ;
+    background-size: 100% 100%; 
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+
+}
+
+audio { 
+   display:none;
+
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+}

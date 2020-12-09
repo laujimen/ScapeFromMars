@@ -1,0 +1,80 @@
+/*AUTORES*/
+.contenedor{
+    height: 60%;
+    width: 50%;
+    margin: auto;
+
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.cuadroFondo{
+  margin-top:30%;
+}
+
+#pestanas {
+    padding: 0;
+    margin: auto;
+    margin-top:100px;
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+    font-family:"full_Pack_2025", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     
+
+}
+
+#pestanas ul{
+    margin:auto;
+}
+
+#pestanas li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background: darkgrey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid purple;
+    border-bottom: dimgray;
+    padding: 5px 20px 0px 20px;
+    
+}
+
+#pestanas a:link{
+    text-decoration: none;
+    color: white;
+}
+#pestanas a:hover {
+  color:purple;
+}
+
+#contenidopestanas{
+    clear: both;
+    background: dimgray;
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+    border: 2px solid purple;
+    width: auto;
+    height:auto;
+    font-family:"full_Pack_2025", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+#contenidopestanas{
+  display:block;
+
+}
+
+img{
+
+float:right;
+border: 2px solid purple;
+height: 100px;
+margin-left:5%;
+margin-right:5%;
+margin-bottom: auto;
+}

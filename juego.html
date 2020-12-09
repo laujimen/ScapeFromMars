@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Escape From Mars</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<script src="js/Juego.js"></script>
+	<script src="js/Personajes.js"></script>
+
+	<script src="js/Marciano.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/mainEstilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"></link>
+	<link rel="icon"  href="img/extraterrestre.ico">
+	
+
+
+</head>
+
+
+
+
+
+
+<body onload= "precargar();">
+	<audio id="audioJuego" src="media/vangelis.mp3" autoplay loop="true"></audio>
+	<nav id="menu">
+		<ul>
+		  <li><a href="inicio.html">Inicio</a></li>
+		  <li><a href="descripcionEinstrucciones.html">Descripcion e instrucciones</a></li>
+		  <li><a>Acerca de</a>
+			  <ul>
+			      <li><a href="autores.html">Autores</a></li>
+			      <li><a href="referencias.html">Referencias</a></li>
+				  <li><a href="desarrollo.html">Desarrollo</a></li>
+			  </ul>
+		  </li>
+
+		</ul>
+	</nav>
+
+	<audio id="myaudio" src="media/explosion.mp3"></audio>
+
+	<canvas id = "canvas" width="900" height="400" style = "border: 2px transparent #000000; "> </canvas>
+</body>
+</html>

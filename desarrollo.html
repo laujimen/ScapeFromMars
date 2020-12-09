@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <title>Desarrollo</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/mainEstilos.css">
+<link rel="stylesheet" type="text/css" href="css/referenciasYdesarrollo.css">
+<link rel="icon"  href="img/extraterrestre.ico">
+
+</head>
+<body>
+
+<nav id="menu">
+<ul>
+  <li><a href="inicio.html">Inicio</a></li>
+  <li><a href="descripcionEinstrucciones.html">Descripcion e instrucciones</a></li>
+  <li><a>Acerca de</a>
+  <ul>
+      <li><a href="autores.html">Autores</a></li>
+      <li><a href="referencias.html">Referencias</a></li>
+	  <li><a href="desarrollo.html">Desarrollo</a></li>
+  </ul>
+  </li>
+
+</ul>
+</nav>
+
+
+<div id="texto">
+
+    <h1>DESARROLLO</h1>
+
+    <p><a>Responsabilidades:
+        </br>Laura: implementación de funciones del juego relacionadas con los eventos multimedia de audio y navegación por pestañas.
+        </br>David: implementación de funciones del juego e integración del juego en la página. Evento multimedia de video inicial.
+        </br>Luz: implementación del juego base con todas las funciones que aportan la jugabilidad. Inserción de niveles y corrección de errores de reinicio.
+        </br>Alejandro: implementación del HTML y CSS base para la página del juego y diseño de fondos e imágenes.
+        <br>
+
+        </br>Los principales problemas durante el diseño del juego han sido la búsqueda de optimizaciones de código. Por eso mismo el diseño final de una navegación por pestañas con jQuery nos hizo tener que entender un poco más su funcionamiento.
+        </br>Por otra parte la dificultad de mover el suelo de manera continua, creando un aspecto adecuado en el canvas y las colisiones de la nave con los diferentes enemigos sonando al detectarlas nos llevo tiempo, teniendo que buscar la forma de que se viera en pantalla de forma adecuada.
+              Se han utilizado técnicas de la asignatura, tales como eventos multimedia (‘on ended’) para el vídeo inicial el cual según finalice permitirá al usuario jugar. Además de dicho evento multimedia, se añaden escuchadores para que el usuario pueda saltar cada vez que presione la tecla key arrow up y para reiniciar el juego con el espacio. Además utiliza el currentTime para controlar el audio de la colisión y que este se pare pasados los 1.9 segundos para no reproducirse en bucle.
+        <br>
+
+        </br>Los puntos fuertes a destacar son el diseño y la búsqueda de una estética unificada y diseñada en su mayoría por el grupo, sin apenas material de terceros, incluyendo fondos, imágenes y determinados diseños, facilitando la interacción con el usuario y creando un entorno agradable y que se adecua a la temática del juego.
+        </br>
+        </br>Planificación: en un principio se estimaba 60 horas aproximadamente para la creación del juego. En lo referente a javascript e implementación acabo siendo más debido a que hubo dificultades en la inclusión del juego final en la página, al rededor de 80 horas.
+              Para el HTML y los CSS se estimaron 24 horas aproximadamente, siendo finalmente, en torno a 30 horas. En un principio todo salió más rápido pero debido a los ajustes del CSS y tener que aprender sobre la implementación de jQuery para la navegación por pestañas se alargo un poco más.
+              La idea inicial era la implementación de un juego tipo “doodle jump” pero nos vimos obligados a cambiarlo sobre la marcha debido a nuestra incapacidad de ir recargando los bloques desde la parte superior del canvas al haberlos creado como un array y observando que finalmente no seriamos capaces de implementar una jugabilidad óptima. En consecuencia el principal problema ha sido el trabajar contrarreloj,  diseñando un juego completamente distinto pero que se adecuaba mucho más a nuestro conocimiento sobre la asignatura y que hemos acabado entendiendo mejor. Finalmente de cara a introducir mayor jugabilidad hemos implementado niveles en el juego.
+        <br>
+  </a></p>
+
+</div>
+
+
+</body>
+</html>
